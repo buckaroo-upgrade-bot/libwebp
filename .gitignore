@@ -39,3 +39,9 @@ cmake_install.cmake
 /build
 extras/get_disto
 extras/webp_quality
+.buckd
+buck-out
+.buckconfig.local
+.buckconfig.d
+buckaroo
+BUCKAROO_DEPS
