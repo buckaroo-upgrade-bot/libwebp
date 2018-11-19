@@ -6,6 +6,9 @@ cxx_library(
   exported_headers = subdir_glob([
     ('imageio', '*.h'),
   ]),
+  headers = subdir_glob([
+    ('src', '**/*.h'),
+  ]),
   srcs = glob([
     'imageio/*.c',
   ]),
