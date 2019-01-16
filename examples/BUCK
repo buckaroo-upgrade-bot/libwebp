@@ -1,0 +1,24 @@
+cxx_library(
+  name = 'util',
+  header_namespace = '',
+  headers = [
+    'example_util.h',
+  ],
+  srcs = [
+    'example_util.c',
+  ],
+  deps = [
+    '//:webp',
+  ],
+)
+
+cxx_binary(
+  name = 'img2webp',
+  srcs = [
+    'img2webp.c',
+  ],
+  deps = [
+    '//:webp',
+    ':util',
+  ],
+)
