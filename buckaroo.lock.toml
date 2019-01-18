@@ -1,4 +1,4 @@
-manifest = "9198ea90a7f313352e782b049d3c40c970126b4bf7f86cda8c1340811421c0d4"
+manifest = "8175d561003036ba712ecf008e786c419c4e965f2b38ac3633af094285c908a1"
 
 [[dependency]]
 package = "github.com/buckaroo-pm/luadist-libjpeg"
@@ -22,7 +22,7 @@ revision = "73a922fe950715414820b48fbf09810635302be5"
 
 [lock."github.com/buckaroo-pm/luadist-libtiff"]
 versions = [ "branch=master" ]
-revision = "7e34a737e53d54664892652b728ac314786f32ef"
+revision = "0bbc506dbcc9012cf726dcb338de8c1135858200"
 
 [lock."github.com/buckaroo-pm/madler-zlib"]
 versions = [ "branch=master" ]
